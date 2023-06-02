@@ -1,0 +1,116 @@
+.checkout {
+  padding: 3rem 2rem;
+  min-height: 73.2vh;
+  position: relative;
+}
+
+.checkout .row {
+  max-width: 100%;
+}
+
+.checkout .row .title {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 2.5rem;
+  font-family: "oswald", sans-serif;
+  font-style: italic;
+}
+
+.checkout .row .summ .row {
+  min-height: 152px;
+}
+
+
+.checkout .row .summ .bagSummary {
+  border: 1px solid #ebebeb;
+  padding: 1rem 0.5rem;
+}
+
+.checkout .selectAdd .col-lg-12 .selectAddTitle,
+.checkout .row .summ .summaryTitle {
+  margin-bottom: 1.5rem;
+  font-size: 23px;
+  font-weight: 700;
+  font-family: "oswald", sans-serif;
+}
+
+.checkout .row .summ .col-lg-6 {
+  margin-bottom: 10px;
+}
+
+.checkout .row .summ .right {
+  text-align: right;
+}
+
+.checkout .row .summ .total {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.checkout .row .selectAdd .addressCont{
+    margin-top: 2.5rem;
+    border: 1px solid #ebebeb;
+    padding: 1rem 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.checkout .row .selectAdd .col-lg-12 .Address {
+    margin-bottom: 20px;
+}
+
+.checkout .row .selectAdd .col-lg-12 .Address hr{
+    border: 1px dashed #919191;
+    opacity: 1;
+}
+
+.checkout .row .selectAdd .addAddress {
+    border: 5px dashed #ebebeb;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.checkout .row .selectAdd .addAddress:hover {
+    border: 5px dashed #000;
+}
+
+
+.checkout .row .summ .placeOrder {
+  margin-top: 3rem;
+  bottom: 10px;
+  background-color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 60px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  box-shadow: 5px 5px rgb(0, 0, 0), 5px 5px 1px 1px rgb(255, 255, 255);
+  transition: 0.2s;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.checkout .row .summ .placeOrder:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 5px 5px rgb(255, 255, 255), 5px 5px 1px 1px rgb(0, 0, 0);
+  transform: translateY(-10px);
+}
+
+
+.checkout .row .addressesCont {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding-top: 5px;
+    
+}

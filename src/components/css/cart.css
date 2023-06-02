@@ -1,0 +1,128 @@
+.cart {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  overflow-x: hidden;
+  background-color: white;
+  color: black;
+  font-family: "oswald", sans-serif;
+  border: 1px solid black;
+  max-height: 40vh;
+  max-width: 30vw;
+  min-width: 30vw;
+  animation-duration: 0.2s;
+  z-index: 9999999999999999;
+}
+
+.cart .empty_cart {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.cart .empty_cart h1 {
+  font-size: 1.5rem;
+}
+
+.cart .item_box {
+  border-bottom: 1px solid #d6d6d6;
+  animation-duration: 0.2s;
+}
+
+.cart .row .cartItemImg {
+  max-width: 200px;
+  max-height: 200px;
+  border-right: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eceef0;
+  padding-right: 0;
+}
+
+.cart .row .cartItemImg img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cart .row .cartItemInfo .row {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem !important;
+  font-weight: lighter !important;
+}
+
+.cart .row .cartItemInfo p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.cart .row .delete_cart_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+  transition: 0.2s;
+  cursor: pointer;
+  border-left: 1px solid #ebebeb;
+  padding-left: 0;
+}
+
+.cart .row .delete_cart_item:hover {
+  color: rgb(199, 3, 3);
+  background-color: rgb(85, 0, 0);
+}
+
+.cart .cart_footer {
+  position: sticky;
+  background-color: black;
+  color: white;
+  bottom: 0;
+}
+
+.cart .cart_footer h5 {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.cart .cart_footer .cart_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart .cart_footer button {
+  background-color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  width: 88%;
+  height: 40px;
+  font-size: 0.9rem;
+  border: 1px solid #ebebeb;
+  box-shadow: 5px 5px rgb(0, 0, 0), 5px 5px 1px 1px rgb(255, 255, 255);
+  transition: 0.2s;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1.6rem;
+}
+
+.cart .cart_footer button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 5px 5px rgb(255, 255, 255), 5px 5px 1px 1px rgb(0, 0, 0);
+}
+
+

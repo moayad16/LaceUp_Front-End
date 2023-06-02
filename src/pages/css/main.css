@@ -1,0 +1,36 @@
+.main {
+    padding-top: 60px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main .topBar_cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999999999999999;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  direction: rtl;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border: 1px solid black;
+  border-right: 1px solid black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #eceef0;
+}

@@ -1,0 +1,92 @@
+.rightBar {
+  width: 450px;
+  height: 95%;
+  position: fixed;
+  color: black;
+  z-index: 999999999999;
+  right: -450px;
+  top: 60px;
+  background-color: #eceef0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal !important;
+  transition: 0.2s;
+  border: 1px solid #333;
+  overflow: auto;
+}
+
+.rightBar_clicked {
+  transform: translateX(-450px);
+}
+
+.rightBar .rightBarHeader {
+  font-style: italic;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 95%;
+  margin-left: 10px;
+}
+
+.rightBar .rightBarHeader h1 {
+  font-weight: 400;
+  cursor: pointer;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.rightBar .rightBarHeader:last-child {
+  font-size: 1.5rem;
+  font-weight: 400;
+  /* cursor: pointer; */
+}
+
+.rightBar .filterOptions {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 95%;
+  margin-left: 10px;
+  transition: 0.2s;
+  height: 100%;
+}
+
+.rightBar .filterOptions label {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.rightBar .filterOptions .radio {
+  margin-right: 3rem;
+}
+
+.rightBar .actionBtns {
+  padding: 0 1.5rem;
+  margin-top: 2rem;
+}
+
+.rightBar .actionBtns .applyBtn {
+  background-color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 40px;
+  width: 100%;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  transition: 0.2s;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightBar .actionBtns .applyBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.rightBar .actionBtns .applyBtn:last-child:hover {
+  background-color: rgb(112, 14, 14);
+}

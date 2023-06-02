@@ -1,0 +1,47 @@
+.allProductsCont {
+    min-height: 100vh;
+}
+
+.allProductsCont h1 {
+    font-family: "oswald", sans-serif;
+    font-weight: bolder;
+    margin-left: 3rem;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+.allProductsCont .row {
+    padding: 0 2rem;
+}
+
+.allProductsCont .input_box {
+  color: black;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  padding-left: 5px;
+  font-size: 1rem;
+  width: 335px;
+  color: rgb(84, 84, 84);
+  text-decoration: none;
+  background-color: #ebebeb;
+  border: none;
+  transition: 0.5s ease-in-out;
+  margin-left: auto;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.allProductsCont .input_box:hover {
+  border: 1px solid black;
+}
+
+.allProductsCont .input_box input {
+  border: none;
+  background-color: transparent;
+  width: 90%;
+}
+
+.allProductsCont .input_box input:focus {
+  outline: none;
+}

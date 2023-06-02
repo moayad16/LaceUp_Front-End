@@ -1,0 +1,171 @@
+.profile {
+  padding-top: 7rem;
+  justify-content: center;
+  font-family: "oswald", sans-serif;
+  position: relative;
+}
+
+.profile button {
+  position: absolute;
+  right: 4.5%;
+  top: 4%;
+  background-color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 40px;
+  width: 10%;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  box-shadow: 5px 5px rgb(0, 0, 0), 5px 5px 1px 1px rgb(255, 255, 255);
+  transition: 0.2s;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1.6rem;
+}
+
+.profile button:hover {
+  transform: translateY(-10px);
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 5px 5px rgb(255, 255, 255), 5px 5px 1px 1px rgb(0, 0, 0);
+}
+
+.profile .personalInfo {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.profile .ordersHistory .ordersCont,
+.profile .personalInfo .addresses,
+.profile .personalInfo .personalInfCont {
+  margin: 0 1rem;
+  max-width: 45%;
+  border: 1px solid #ebebeb;
+  padding: 0;
+  position: relative;
+}
+
+.profile .ordersHistory .title,
+.profile .personalInfo .addresses .title,
+.profile .personalInfo .personalInfCont .title {
+  width: 100%;
+  padding: 1rem 1rem;
+}
+
+.profile .ordersHistory .title h3,
+.profile .personalInfo .addresses .title h3,
+.profile .personalInfo .personalInfCont .title h3 {
+  margin-bottom: 1.5rem;
+  font-size: 23px;
+  font-weight: 700;
+  font-family: "oswald", sans-serif;
+}
+
+.profile .ordersHistory .ordersCont .content,
+.profile .personalInfo .addresses .content,
+.profile .personalInfo .personalInfCont .content {
+  overflow: auto;
+  height: 200px;
+  border-top: 1px solid #ebebeb;
+  padding-top: 10px ;
+  padding-right: 1rem;
+}
+
+.profile .personalInfo .addresses .content div {
+  font-size: 16px;
+  font-weight: lighter;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 5px;
+}
+
+.profile .personalInfo .addresses .content hr {
+  border: 1px dashed #999;
+  opacity: 1;
+  height: 1px;
+}
+
+.profile .personalInfo .personalInfCont .content input {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #c9c9c9;
+  background-color: #eceef0;
+  border-radius: 2px;
+}
+
+.profile .personalInfo .personalInfCont .content {
+  overflow-x: hidden;
+}
+
+.profile .ordersHistory {
+  padding: 0 !important;
+  margin: 2rem 0;
+  max-width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.profile .ordersHistory .ordersCont {
+  border: 1px solid #ebebeb;
+  max-width: 92%;
+  position: relative;
+  min-height: 40vh;
+}
+
+.profile .ordersHistory .ordersCont .products hr{
+  margin: 0;
+}
+
+.profile .ordersHistory .ordersCont .content {
+  min-height: 400px;
+  
+}
+
+.profile .ordersHistory .ordersCont .content .order{
+  margin-bottom: 3rem;
+}
+
+
+.profile .ordersHistory .ordersCont .content h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profile .ordersHistory .ordersCont .content .itemImage{
+    padding-right: 0;
+    max-width: 10%;
+    background-color: #eceef0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .ordersHistory .ordersCont .content .itemImage img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profile .ordersHistory .ordersCont .content .orderSummary {
+    margin-top: 1rem;
+    border-bottom: 1px solid #999;
+    border-top: 1px dashed #999;
+    padding: 10px 1rem 1rem 1rem;
+}
+
+.profile .ordersHistory .ordersCont .content .orderSummary hr {
+    margin-bottom: 10px;
+}
+
+.profile .ordersHistory .ordersCont .content .orderSummary .col-lg-6 {
+    padding: 0;
+}

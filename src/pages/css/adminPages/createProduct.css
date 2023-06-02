@@ -1,0 +1,54 @@
+.createProductCont {
+  width: 99.5vw;
+}
+
+.createProductCont h1 {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-weight: Bolder !important;
+  font-style: italic;
+  font-family: "oswald", sans-serif;
+}
+
+.createProductCont button {
+  background-color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 40px;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  box-shadow: 5px 5px rgb(0, 0, 0), 5px 5px 1px 1px rgb(255, 255, 255);
+  transition: 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 2rem;
+  width: 150px;
+}
+
+.createProductCont button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 5px 5px rgb(255, 255, 255), 5px 5px 1px 1px rgb(0, 0, 0);
+}
+
+.createProductCont .createProductForm {
+  padding: 1rem;
+}
+
+.createProductCont .createProductForm label {
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: "oswald", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+}
+
+.createProductCont .createProductForm textarea,
+.createProductCont .createProductForm select,
+.createProductCont .createProductForm input {
+    background-color: #ebebeb;
+    border-radius: 0 !important;
+}

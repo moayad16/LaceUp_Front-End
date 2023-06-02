@@ -1,0 +1,63 @@
+.addNewAdd {
+  color: black;
+  padding: 1rem 1rem;
+  margin-top: 2.5rem;
+  transition: 0.2s;
+  border: 1px solid #ebebeb;
+  min-height: fit-content;
+}
+
+.addNewAdd h1 {
+  font-family: "oswald", sans-serif;
+  font-size: 2rem;
+}
+
+.addNewAdd .addAddressForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.addNewAdd .addAddressForm label{
+  margin-top: 1rem !important;
+}
+
+.addNewAdd .addAddressForm input {
+    min-width: 103%;
+    background-color: #eceef0;
+    border: 1px solid #ebebeb;
+    height: 3rem;
+    padding-left: 1rem;
+}
+
+.addNewAdd .addAddressForm input:focus {
+    outline: 1px solid black;
+}
+
+.addNewAdd .addAddressForm .row {
+    min-width: 100%;
+}
+
+.addNewAdd button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.addNewAdd button {
+    min-width: 103%;
+  margin-top: 2rem;
+  margin-left: 0.9rem;
+  background-color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 60px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  transition: 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}

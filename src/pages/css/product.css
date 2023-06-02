@@ -1,0 +1,121 @@
+.product {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "oswald", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  margin-left: 0;
+}
+
+.product .col-lg-6 {
+  min-height: 719.352px !important;
+}
+
+.product .prod_img {
+   max-width: 719.352px;
+  max-height: 719.352px;
+  background-color: #eceef0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.product .prod_img img {
+    max-width: 695.352px;
+    max-height: 695.352px;
+  object-fit: cover;
+  margin-left: 2rem;
+}
+
+.product .prod_actions {
+  width: 40%;
+  height: 100% !important;
+}
+
+.product .prod_actions .prod_name {
+  font-style: italic;
+  font-weight: lighter !important;
+}
+
+.product .prod_price {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.product .prod_size {
+  margin-top: 4rem;
+}
+
+.product .sizes .col-sm-3 {
+  width: 25% !important;
+  padding: 0 0.5rem;
+}
+
+.product .sizes button {
+  background-color: white;
+  border: 5px solid #eceef0;
+  border-radius: 2px;
+  width: 100%;
+  height: 60px;
+  transition: 0.2s;
+  margin-top: 1rem;
+}
+
+.product .sizes input {
+    display: none;
+}
+
+.product .sizes .clicked {
+    background-color: black;
+    color: white;
+}
+
+.product .sizes button:hover {
+  background-color: #eceef0;
+  transform: translateY(-5px);
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.product .sizes button:focus {
+    background-color: black;
+    color: white;
+}
+
+.product .add_to_cart {
+  margin-top: 3rem;
+  width: 60%;
+  margin-left: 0;
+}
+
+.product .add_to_cart button {
+  background-color: black;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 60px;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  box-shadow: 5px 5px rgb(255, 255, 255), 5px 5px 1px 1px rgb(0, 0, 0);
+  transition: 0.2s;
+  color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.product .add_to_cart button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px rgb(0, 0, 0), 5px 5px 1px 1px rgb(255, 255, 255);
+  transform: translateY(-10px);
+}
+
+.product .prod_info {
+    margin-top: 3rem;
+}

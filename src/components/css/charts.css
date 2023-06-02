@@ -1,0 +1,12 @@
+.charts {
+    height: 100%;
+    width: 100%;
+}
+
+
+.charts h1 {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-weight: lighter !important;
+    font-style: normal;
+}

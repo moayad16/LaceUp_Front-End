@@ -1,0 +1,99 @@
+.shop {
+  overflow-x: hidden;
+}
+
+.shop h1 {
+  text-align: left;
+  margin-left: 3rem;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Oswald", sans-serif;
+  margin-top: 4rem;
+}
+.shop .row .filters {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-right: 3rem;
+}
+
+.shop .row .filters .filterBtn {
+  background-color: black;
+  width: 200px;
+  color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 40px;
+  font-size: 0.9rem;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 5px 5px rgb(0, 0, 0), 5px 5px 1px 1px rgb(0, 0, 0);
+  transition: 0.2s;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop .row .filters .filterBtn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.shop .row .filters button {
+  width: 200px;
+  height: 40px;
+  font-size: 0.9rem;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 5px 5px rgb(0, 0, 0), 5px 5px 1px 1px rgb(0, 0, 0);
+  transition: 0.2s;
+  position: relative;
+  z-index: 999999;
+}
+
+.shop .row .filters button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.shop .row .filters button:active {
+  box-shadow: none;
+}
+
+.shop .row .filters div {
+  width: 200px;
+}
+
+.shop .row .filters .sort {
+  box-shadow: none;
+}
+
+
+.shop .row .filters button :last-child {
+    position: absolute;
+    right: 10px;
+    top: 12px
+}
+
+.shop .products_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 99svw;
+  transition: 0.2s;
+}
+
+.shop .products_cont .row {
+    width: 100vw !important;
+    min-height: 50vh;
+}

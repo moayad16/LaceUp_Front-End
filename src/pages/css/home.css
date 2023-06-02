@@ -1,0 +1,120 @@
+.home .row {
+  max-width: 100%;
+}
+
+.home .welcome_section,
+.welcome_section .row {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  min-height: 100%;
+  background: linear-gradient(to right, rgb(44, 62, 80), rgb(253, 116, 108));
+}
+
+.home .welcome_section .row .col-lg-6 h1 {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.home .welcome_section .row .col-lg-6 p {
+  margin-left: 10%;
+}
+
+.home .welcome_section .row .col-lg-6 button {
+  background-color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 40px;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  box-shadow: 5px 5px rgb(0, 0, 0), 5px 5px 1px 1px rgb(255, 255, 255);
+  transition: 0.2s;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .welcome_section .row .col-lg-6 button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 5px 5px rgb(255, 255, 255), 5px 5px 1px 1px rgb(0, 0, 0);
+}
+
+.home .welcome_section .row .right-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0;
+  max-width: 50%;
+}
+
+.home .welcome_section .row .col-lg-6 img {
+  height: 500px;
+  width: 500px;
+  rotate: -30deg;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0) scaleX(-1);
+  }
+  100% {
+    transform: translateY(-70px) scaleX(-1);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-70px);
+  }
+}
+
+/* Wave divider */
+.custom-shape-divider-bottom-1679965571 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1679965571 svg {
+  position: relative;
+  display: block;
+  width: calc(129% + 1.3px);
+  height: 163px;
+}
+
+.custom-shape-divider-bottom-1679965571 .shape-fill {
+  fill: #ffffff;
+}
+
+.home .products {
+  margin-top: 6rem;
+}
+
+.home .products .row h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+  margin-top: 4rem;
+}
+
+.home .products .prods {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .products .row .col-lg-3 {
+  margin: 1rem 1rem;
+}

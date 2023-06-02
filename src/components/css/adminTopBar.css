@@ -1,0 +1,22 @@
+.top_bar .logout {
+  background-color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 40px;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  box-shadow: 5px 5px rgb(0, 0, 0), 5px 5px 1px 1px rgb(255, 255, 255);
+  transition: 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1.6rem;
+  width: 150px;
+}
+
+.top_bar .logout:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 5px 5px rgb(255, 255, 255), 5px 5px 1px 1px rgb(0, 0, 0);
+}

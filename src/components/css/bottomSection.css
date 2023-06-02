@@ -1,0 +1,13 @@
+.bottomSection {
+    margin-top: 5rem;
+    background-color: black;
+    color: #666;
+    display: flex;
+    min-width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}

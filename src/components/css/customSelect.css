@@ -1,0 +1,50 @@
+.custom_select {
+  margin-bottom: 2rem;
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+
+.custom_select button {
+  color: black;
+  background-color: white;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  height: 40px;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  transition: 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  transition: 0.2s;
+  position: relative;
+  z-index: 99;
+}
+
+
+.custom_select .option {
+  background-color: black;
+  color: white;
+  width: 50%;
+  height: 40px;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+  position: absolute;
+  top: 10%;
+  left: 1%;
+  z-index: 1;
+  border: 1px solid black;
+}
+
+
+
+.custom_select .option:hover {
+  background-color: white;
+  color: black;
+}
